@@ -1,0 +1,37 @@
+:root {
+  --blue-btn: #8eadd5;
+  --backgroud-card: #f6f6f6;
+  --background-back: radial-gradient(
+    circle at top left,
+    rgba(142, 173, 213, 0.35) 0%,
+    rgba(142, 173, 213, 0.15) 12%,
+    rgba(255, 255, 255, 1) 30%
+  );
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+body {
+  background: var(--background-back);
+}
+.fs-64 {
+  font-size: clamp(40px, 6vw, 64px);
+}
+
+.btn-main {
+  background-color: var(--blue-btn) !important;
+}
+
+.companies {
+  background-color: var(--backgroud-card);
+}
+.part {
+  background-color: var(--backgroud-card);
+}
+footer {
+  background-color: var(--backgroud-card);
+}
